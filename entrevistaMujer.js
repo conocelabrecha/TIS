@@ -5,25 +5,27 @@ window.onload = function () {
 //Variables globales
 var num_preguntas = 7;
 var preguntaAleatoria;
-var maxNumPreguntas = 9; // Número máximo de preguntas que hay contando el 0. (Se van restando para que no se dupliquen)
+var maxNumPreguntas = 10; // Número máximo de preguntas que hay contando el 0. (Se van restando para que no se dupliquen)
 
 // Preguntas sexistas
+
 var preguntasMujer = [
     ['¿Le gustaría tener hijos a corto plazo?', 'Si'],
     ['Necesitaríamos que viniese con falda y tacones, ¿le crearía algún inconveniente?', 'Si'],
     ['¿Le importaría adaptarse a un ambiente muy masculino?', 'No'],
     ['¿Te sientes cómoda trabajando con hombres?', 'No'],
     ['¿Alguna vez ha estado de baja?', 'Si'],
-    ['Necesitamos un hombre con fuerza física para realizar el trabajo. ¿Usted cree que daría la talla?', 'Si'],
+    ['Realmente necesitamos un hombre para nuestro equipo. ¿Cree que usted daría la talla?', 'Si'],
     ['¿Está casada?', 'Si'],
-    ['¿Está interesada en la guardería que tenemos en la empresa?', 'Si'],
+    ['¿Estaría interesada en la guardería que tenemos en la empresa?', 'Si'],
     ['¿Tiene amplia disponibilidad para viajar?', 'No'],
-    ['¿Le importaría coquetear con los clientes para cerrar una venta?', 'Si']
+    ['¿Le importaría coquetear con los clientes para ampliar los plazos de entrega?', 'Si']
+
 ];
 
 // Preguntas normales
 var preguntasHombre = [
- ['¿Reaccionas bien al cambio?', 'Si'],
+    ['¿Reaccionas bien al cambio?', 'Si'],
     ['¿Eres emprendedor?', 'Si'],
     ['¿Sabría desarrollar una web?', 'Si'],
     ['¿Gestionas bien el estrés?', 'Si'],
