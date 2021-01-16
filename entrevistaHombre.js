@@ -14,11 +14,11 @@ var preguntasMujer = [
     ['¿Le importaría adaptarse a un ambiente muy masculino?', 'No'],
     ['¿Te sientes cómoda trabajando con hombres?', 'No'],
     ['¿Alguna vez ha estado de baja?', 'Si'],
-    ['Necesitamos un hombre con fuerza física para realizar el trabajo. ¿Usted cree que daría la talla?', 'Si'],
+    ['Realmente necesitamos un hombre para nuestro equipo. ¿Cree que usted daría la talla?', 'Si'],
     ['¿Está casada?', 'Si'],
-    ['¿Está interesada en la guardería que tenemos en la empresa?', 'Si'],
+    ['¿Estaría interesada en la guardería que tenemos en la empresa?', 'Si'],
     ['¿Tiene amplia disponibilidad para viajar?', 'No'],
-    ['¿Le importaría coquetear con los clientes para cerrar una venta?', 'Si']
+    ['¿Le importaría coquetear con los clientes para ampliar los plazos de entrega?', 'Si']
 
 ];
 
