@@ -1,0 +1,327 @@
+html,body {
+  height: 100%;
+}
+
+.img-center {
+  text-align: center;
+  opacity: 1;
+}
+
+.entrevista-img {
+  background-image: url("images/entrevista.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noticias-img {
+  background-image: url("images/periodicos.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.titulo {
+  margin-bottom: 1em;
+  color: #626464;
+}
+
+.chat-container {
+  padding: 25px;
+  
+}
+
+.chat {
+  border-radius: 15px;
+  border: 2px solid #A9A9A9;
+  margin: 50px;
+  padding: 0px !important;
+  background-color: rgba(255, 245, 238, 0.8);
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.preguntas {
+  padding: 5px;
+  margin: 5px;
+  min-height: 80%;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+
+#user {
+  border-radius: 7px;
+  background-color: #48C9B0;
+  padding: 5px;
+  margin: 0px;
+  color: black;
+}
+
+#bot {
+  border-radius: 7px;
+  background-color: #5D6D7E;
+  padding: 5px;
+  margin: 0px;
+  color: white;
+}
+
+#userAnswer {
+  padding: 10px;
+  margin: 0px;
+}
+
+#botAnswer {
+  padding: 10px;
+  margin: 0px;
+}
+
+.botonRespuesta{
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  width: 70px;
+  border:1px solid #ccc;
+  
+  display:inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:aliceblue;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.botonRespuesta:hover{
+  background-color: #ccc;
+}
+
+.botonAceptar{
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  width: 200px;
+  border:1px solid #ccc;
+  
+  display:inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:aliceblue;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.botonAceptar:hover{
+  background-color: #ccc;
+}
+
+.answerContainer{
+  padding: 5px;
+}
+
+.revealer {
+	position: absolute;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px); /* Firefox and Safari gap hack */
+	background: #fff;
+	top: -2px;
+	left: -2px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color:#4d4d4d;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.index-img {
+  background-image: url("images/entrevista.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: blur 2s ease 0s normal;
+  -webkit-animation: blur 2s ease 0s normal;
+  -moz-animation: blur 2s ease 0s normal;
+}
+
+@keyframes blur {
+  0%   {
+    -webkit-filter:blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+  }
+  25%  {
+    -webkit-filter:blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+  }
+  75%  {
+    -webkit-filter:blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+  }
+  100% {
+    -webkit-filter:blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }  
+}
+
+.avatar{
+  cursor: pointer;
+  position: relative;
+	border-top-right-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
+  transition: all 1s;
+}
+.avatar:hover{
+  border-top-right-radius:0px !important;
+  border-bottom-left-radius:0px !important;
+  border: 10px solid #4d4d4d;
+}
+
+.mensaje{
+  animation: appear 350ms ease-in 1;
+  max-width: 500px;
+  width: 400px !important;
+  margin: auto;
+  margin-top: 15% !important;
+  display: none;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid #A9A9A9;
+}
+
+.visible{
+  display: block;
+}
+
+.titulo-noticias {
+	font-size: 5vw;
+  color: #584f4f;
+  line-height: 0.8;
+	font-family: 'Kanit', sans-serif;
+}
+
+.noticias-center{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+.resumen-center{
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+
+.github {
+	border: 0;
+  background: indigo;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #1977b6;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: rgba(0, 0, 0, 0.918);
+  border-radius: 15px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.github:hover {
+  width: 270px;
+  border: 2px solid #1977b6;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+.wrap {
+  height: 100%;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.masinformacion {
+	border: 0;
+  background: #3385ff;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #1977b6;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: rgba(0, 0, 0, 0.918);
+  border-radius: 15px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+
+}
+
+.masinformacion:hover{
+  width: 270px;
+  border: 2px solid #1977b6;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a > img.img-thumbnail2{
+  transition: transform .4s;
+  border-radius: 10px !important;
+  border: 2px solid #A9A9A9;
+}
+
+a > img.img-thumbnail2:hover{
+  border-top-right-radius:0px !important;
+  border-bottom-left-radius:0px !important;
+  border: 2px solid black !important;
+  transform: scale(1.06);
+  border-radius: 10px !important;
+}
