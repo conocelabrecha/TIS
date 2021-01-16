@@ -26,13 +26,13 @@ var preguntasMujer = [
 var preguntasHombre = [
     ['¿Reaccionas bien al cambio?', 'Si'],
     ['¿Eres emprendedor?', 'Si'],
-    ['¿Tienes buena imagen de tu anterior jefe?', 'Si'],
+    ['¿Sabría desarrollar una web?', 'Si'],
     ['¿Gestionas bien el estrés?', 'Si'],
     ['¿Se te da bien trabajar en equipo?', 'Si'],
     ['¿Estás actualmente en otros procesos de selección?', 'No'],
-    ['¿Conocía la empresa?', 'No'],
+    ['¿Conoce el lenguaje de programación Haskell?', 'No'],
     ['¿Cree que podría aportar algo positivo a la empresa?', 'Si'],
-    ['¿Gestionas bien el fracaso?', 'No'],
+    ['¿Tiene conocimientos de HTML?', 'Si'],
     ['¿Estarías dispuesto a trabajar horas extras?', 'Si']
 ];
 
