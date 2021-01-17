@@ -8,7 +8,6 @@ var preguntaAleatoria;
 var maxNumPreguntas = 10; // Número máximo de preguntas que hay contando el 0. (Se van restando para que no se dupliquen)
 
 // Preguntas sexistas
-
 var preguntasMujer = [
     ['¿Le gustaría tener hijos a corto plazo?', 'Si'],
     ['Necesitaríamos que viniese con falda y tacones, ¿le crearía algún inconveniente?', 'Si'],
